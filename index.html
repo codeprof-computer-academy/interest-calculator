@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <header>
+         
+        <small class="brand">
+              
+                <img src="./logo.png" alt="" width="20">
+                <b>PalmPay</b>
+        </small>
+
+         <nav>
+                <a href="index.html"> <img src="./home.png" alt="" width="20"> Home</a>
+                <a href="about.html"> <img src="./about.png" alt="" width="20"> About App</a>
+                <a href="signup.html"> <img src="./reg.png" alt="" width="20"> Create Account</a>
+                <a href=""> <img src="./lock.png" alt="" width="20"> Login</a>
+                <a href=""> <img src="./support.png" alt="" width="20"> Support</a>
+                <a href=""> <img src="./contact.png" alt="" width="20"> Contact us</a>
+         </nav>
+
+          <button class="menu-btn"></button>
+    </header>
+    <main>
+        <div class="curtain"></div>
+        <span class="rate-box">
+            rate:10%/yr
+        </span>
+           <form>
+                  
+
+                    <div class="input-group">
+                           <label>Borrowed Amount</label>
+                            <small class="principal-error"></small>
+                            <input type="number" class="principal" placeholder="₦0.00">
+
+                    </div>
+
+                    <div class="input-group">
+                        <label>Payment Duration</label>
+                        <small class="duration-error"></small>
+                        <input type="number" class="duration">
+                    
+                    </div>
+
+                    <div class="input-group btn-group">
+                         <button>Calculate</button>
+                         <button type="reset" class="reset_btn">Reset</button>
+                    
+                    </div>
+
+                    <div class="input-group">
+                       
+                        <h2> <small>Interest</small><span class="interest">₦0.0</span></h2>
+                        <h2> <small>Total Payment</small> <span class="amount">₦0.0</span></h2>
+                    
+                    </div>
+           </form>
+    </main>
+    <footer>
+          <p>&copy; Copyright 2024. All rights reserved. Powered by Codeprof Team.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="iteration.js"></script>
+    <!-- <script src="timing.js"></script> -->
+</body>
+</html>
